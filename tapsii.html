@@ -1,0 +1,609 @@
+<html>
+
+    <head>
+
+        <title>ثبت نام راننده تپسی به صورت غیرحضوریس</title>
+        <style>
+            #div1{
+                width: 100%;
+                height: 70px;
+                background-color: white;
+                border-bottom: 1px solid #e1e3e3;
+                position: fixed;
+                z-index: 1000;
+                margin: auto;
+            }
+            #img1{
+                margin-top: 10px;
+                margin-right: 180px;
+                float: right;
+            }
+            #div2{
+                width: 1000px;
+                height: 500px;
+                background-color: #cfe9fe;
+                margin: auto;
+                position: relative;
+                top: 110px;
+                border-radius: 15px;
+                text-align: center;
+            }
+            #div3{
+                width: 490px;
+                height: 500px;
+                display: inline-block;
+                vertical-align: top;
+                margin-right: 15px;
+            }
+            #div4{
+                width: 390px;
+                height: 400px;
+                display: inline-block;
+                vertical-align: top;
+                text-align: center;
+                padding: 50px;
+            }
+            #img2{
+                width: 490px;
+                height: 500px;
+                border-radius: 15px;
+            }
+            #div5{
+                width: 380;
+                height: 90px;
+                text-align: right;
+                margin-top: 50px;
+            }
+            #div6{
+                width: 380;
+                height: 230px;
+                text-align: center;
+            }
+            #p1{
+                color: rgb(19, 19, 19);
+                font-size: 30px;
+                margin: 8px;
+            }
+            #p2{
+                color: rgb(19, 19, 19);
+                font-size: 18px;
+                margin: 8px;
+            }
+            #inp1{
+                width: 100%;
+                height: 52px;
+                border-radius: 7px;
+                border: none;
+                text-align: right;
+                font-size: 17px;
+                padding: 20px;
+            }
+            #inp2{
+                width: 100%;
+                height: 52px;
+                margin-top: 10px;
+                border-radius: 7px;
+                border: none;
+                text-align: right;
+                font-size: 17px;
+                padding: 20px;
+            }
+            #btn1{
+                width: 100%;
+                height: 40px;
+                margin-top: 20px;
+                border-radius: 40px;
+                border: none;
+                font-size: 17px;
+                background-color: #276ef1;
+                color: white;
+                cursor: pointer;
+            }
+            #p3{
+                font-size: 17px;
+                cursor: pointer;
+            }
+            #a1{
+                text-decoration: none;
+                color: #276ef1;
+            }
+            #div7{
+                width: 100%;
+                height: 300px;
+                text-align: center;
+                margin-top: 180px;
+            }
+            #div8{
+                width: 100%;
+                height: auto;
+                text-align: right;
+            }
+            #div9{
+                width: 100%;
+                height: auto;
+                text-align: center;
+                margin-top: 40px;
+            }
+            #p4{
+                font-size: 27px;
+                direction: rtl;
+                margin-right: 180px;
+            }
+            #img3{
+                width: 800px;
+                border-radius: 15px;
+            }
+            #div10{
+                width: 1000px;
+                height: 550px;
+                background-color: #f0f0f0;
+                margin: auto;
+                margin-top: 80px;
+                border-radius: 15px;
+                text-align: center;
+            }
+            #div11{
+                display: inline-block;
+                vertical-align: top;
+                text-align: center;
+                width: 490px;
+                height: 550px;
+            }
+            #div12{
+                display: inline-block;
+                vertical-align: top;
+                width: 490px;
+                height: 550px;
+                text-align: right;
+            }
+            #div13{
+                text-align: right;
+                padding: 30px;
+            }
+            #p5{
+                font-size: 30px;
+                color: rgb(19, 19, 19);
+            }
+            #p6{
+                font-size: 20px;
+                color: #727272;
+            }
+            #div14{
+                background-color: white;
+                width: 430px;
+                height: 280px;
+                margin: auto;
+                padding: 10px;
+                border-radius: 10px;
+                text-align: center;
+                box-shadow: 0px 1px 10px #b1b1b1;
+            }
+            #p7{
+                font-size: 30px;
+                color: #727272;
+                margin: 3px;
+                margin-top: 50px;
+            }
+            #p8{
+                font-size: 30px;
+                color:rgb(19, 19, 19);
+                direction: rtl;
+                margin: 3px;
+            }
+            #inp3{
+                width: 100%;
+                height: 52px;
+                text-align: right;
+                font-size: 20px;
+                padding: 10px;
+                background-color: #f0f0f0;
+                border: none;
+                border-radius: 7px;
+                margin-top: 50px;
+            }
+            #p9{
+                margin-top: 60px;
+                margin-right: 30px;
+                font-size: 30px;
+                color: rgb(19, 19, 19);
+            }
+            #ul1{
+                direction: rtl;
+                margin-right: 20px;
+            }
+            #ul1 li{
+                font-size: 20px;
+                padding: 18px 0px;
+                color: rgb(19, 19, 19);
+            }
+            #div15{
+                width: 1000px;
+                height: 330px;
+                margin: auto;
+                text-align: center;
+                margin-top: 150px;
+            }
+            #div16{
+                text-align: right;
+            }
+            #p10{
+                font-size: 30px;
+                color: rgb(19, 19, 19);
+                direction: rtl;
+            }
+            #div17{
+                display: inline-block;
+                vertical-align: top;
+                width: 470px;
+                height: 170px;
+                text-align: right;
+                padding: 10px;
+            }
+            #div18{
+                display: inline-block;
+                vertical-align: top;
+                width: 470px;
+                height: 170px;
+                text-align: right;
+                padding: 10px;
+            }
+            #p11{
+                font-size: 20px;
+                direction: rtl;
+                color: #727272;
+            }
+            #p12{
+                font-size: 20px;
+                direction: rtl;
+                color: #727272;
+                margin-top: 30px;
+            }
+            #p13{
+                font-size: 20px;
+                direction: rtl;
+                color: #727272;
+            }
+            #p14{
+                font-size: 20px;
+                direction: rtl;
+                color: #727272;
+                margin-top: 30px;
+            }
+            #p15{
+                font-size: 20px;
+                direction: rtl;
+                color: #727272;
+                margin-top: 30px;
+            }
+            #div19{
+                width: 990px;
+                height: 60px;
+                margin: auto;
+                text-align: right;
+            }
+            #p16{
+                font-size: 20px;
+                direction: rtl;
+                color: #727272;   
+            }
+            #div20{
+                width: 100%;
+                text-align: center;
+                margin-top: 150px;
+            }
+            #img4{
+                width: 1000px;
+                border-radius: 15px;
+            }
+            #div21{
+                width: 1000px;
+                height: 720px;
+                margin: auto;
+                margin-top: 150px;
+                text-align: center;
+            }
+            #div22{
+                width: 990px;
+                height: 50px;
+                text-align: right;
+                margin: auto;
+            }
+            #p17{
+                font-size: 30px;
+                color: rgb(19, 19, 19);
+                direction: rtl;
+            }
+            #div23{
+                display: inline-block;
+                vertical-align: top;
+                width: 260px;
+                height: 160px;
+                text-align: center;
+                margin-top: 20px;
+                padding: 20px;
+            }
+            #div24{
+                display: inline-block;
+                vertical-align: top;
+                width: 260px;
+                height: 160px;
+                text-align: center;
+                margin-top: 20px;
+                padding: 20px;
+            }
+            #div25{
+                display: inline-block;
+                vertical-align: top;
+                width: 260px;
+                height: 160px;
+                text-align: center;
+                margin-top: 20px;
+                padding: 20px;
+            }
+            #div26{
+                display: inline-block;
+                vertical-align: top;
+                width: 260px;
+                height: 160px;
+                text-align: center;
+                margin-top: 20px;
+                padding: 20px;
+            }
+            #div27{
+                display: inline-block;
+                vertical-align: top;
+                width: 260px;
+                height: 160px;
+                text-align: center;
+                margin-top: 20px;
+                padding: 20px;
+            }
+            #img5{
+                width: 40px;
+            }
+            #img6{
+                width: 40px;
+            }
+            #img7{
+                width: 40px;
+            }
+            #img8{
+                width: 40px;
+            }
+            #img9{
+                width: 40px;
+            }
+            #p18{
+                font-size: 20px;
+                color: rgb(19, 19, 19);
+            }
+            #p19{
+                font-size: 20px;
+                color: rgb(19, 19, 19);
+            }
+            #p20{
+                font-size: 20px;
+                color: rgb(19, 19, 19);
+            }
+            #p21{
+                font-size: 20px;
+                color: rgb(19, 19, 19);
+            }
+            #p22{
+                font-size: 20px;
+                color: rgb(19, 19, 19);
+            }
+            #p23{
+                font-size: 17px;
+                color: #727272;
+            }
+            #p24{
+                font-size: 17px;
+                color: #727272;
+            }
+            #p25{
+                font-size: 17px;
+                color: #727272;
+            }
+            #p26{
+                font-size: 17px;
+                color: #727272;
+            }
+            #p27{
+                font-size: 17px;
+                color: #727272;
+            }
+            #div28{
+                width: 1000px;
+                height: 470px;
+                margin: auto;
+                margin-top: 80px;
+                text-align: right;
+            }
+            #p28{
+                font-size: 30px;
+                color: rgb(19, 19, 19);
+            }
+            #ul2{
+                direction: rtl;
+            }
+            #ul2 li{
+                font-size: 20px;
+                color: rgb(19, 19, 19);
+                padding: 10px;
+            }
+            #div29{
+                width: 100%;
+                height: 180px;
+                background-color: #000;
+                text-align: center;
+            }
+            #div30{
+                width: 500px;
+                height: 180px;
+                display: inline-block;
+                vertical-align: top;
+                margin-right: 80px;
+                text-align: left;
+            }
+            #div31{
+                width: 500px;
+                height: 180px;
+                display: inline-block;
+                vertical-align: top;
+                text-align: right;
+            }
+            #p29{
+                font-size: large;
+                color: white;
+                margin-top: 50px;
+                margin-left: 10px;
+            }
+            #p30{
+                font-size: large;
+                color:white
+            }
+            #img10{
+                margin-top: 40px;
+            }
+            #div30 a{
+                cursor: pointer;
+            }
+        </style>
+
+    </head>
+
+    <body>
+
+        <div id="div1">
+            <img src="tap.SVG" id="img1">
+        </div>
+        <div id="div2">
+            <div id="div3">
+                <img src="e.WEBP" id="img2">
+            </div>
+            <div id="div4">
+                <div id="div5">
+                    <p id="p1">ثبت نام راننده سواری</p>
+                    <p id="p2">به درآمد ماهانه 65 میلیون تومان برسید</p>
+                </div>
+                <div id="div6">
+                    <input id="inp1" type="text" placeholder="شماره تلفن همراه خود را وارد کنید">
+                    <input id="inp2" type="text" placeholder="کد ملی خود را وارد کنید">
+                    <button id="btn1">ثبت نام</button>
+                    <p id="p3"><b><a href="https://join.tapsi.ir/edit-driver" id="a1">برای ویرایش اطلاعات کلیک کنید</a></b></p>
+                </div>
+            </div>
+        </div>
+        <div id="div7">
+            <div id="div8">
+                <p id="p4">راننده تپسی شوید و پاداش های متنوع بگیرید !</p>
+            </div>
+            <div id="div9">
+                <img src="t.WEBP" id="img3">
+            </div>
+        </div>
+        <div id="div10">
+            <div id="div11">
+                <div id="div13">
+                    <p id="p5">محاسبه درآمد تپسی</p>
+                    <p id="p6">شهر محل سکونت خود و ساعت کاری روزانه خود را وارد کنید تا آنلاین درآمد خود را مشاهده کنید</p>
+                </div>
+                <div id="div14">
+                    <p id="p7">درآمد ماهیانه شما</p>
+                    <p id="p8">65,000,000 تومان</p>
+                    <input id="inp3" type="text" placeholder="شهر شما">
+                </div>
+            </div>
+            <div id="div12">
+                <p id="p9">مدارک لازم برای ثبت نام راننده</p>
+                <ul id="ul1">
+                    <li>گواهینامه</li>
+                    <li>کارت ماشین</li>
+                    <li>بیمه نامه خودرو</li>
+                </ul>
+            </div>
+        </div>
+        <div id="div15">
+            <div id="div16">
+                <p id="p10">شرایط ثبت نام راننده در تپسی چگونه است؟</p>
+            </div>
+            <div id="div17">
+                <p id="p11"> 4. در یکی از شهرهای تحت پوشش تپسی فعال باشید</p>
+                <p id="p12"> 5. سوء پیشینه نداشته باشید</p>
+            </div>
+            <div id="div18">
+                <p id="p13"> 1. ۳ ماه از تاریخ صدور گواهینامه‌ شما گذشته باشد</p>
+                <p id="p14"> 2. خودرو سواری (به جز وانت، پیکان و پی‌کی) داشته باشید</p>
+                <p id="p15"> 3. بیمه شخص ثالث شما معتبر باشد</p>
+            </div>
+            <div id="div19">
+                <p id="p16">می‌توانید از طریق همین صفحه و به‌صورت آنلاین مشخصات خود را وارد کنید تا کارشناسان پشتیبانی با شما تماس بگیرند. همچنین امکان همکاری با ما از طریق مراجعه به بازاریابان میدانی در سطح شهر یا تماس با شماره تلفن ۱۶۳۰ به‌صورت غیرحضوری هم وجود دارد</p>
+            </div>
+        </div>
+        <div id="div20">
+            <img src="s.WEBP" id="img4">
+        </div>
+        <div id="div21">
+            <div id="div22">
+                <p id="p17">مزایای راننده تپسی شدن چیست؟</p>
+            </div>
+            <div id="div23">
+                <img src="1.PNG" id="img5">
+                <p id="p18">تسویه اعتبار آنی</p>
+                <p id="p23">تا ۵ بار در روز و بدون محدودیت زمانی، درآمدتان را به حساب بانکی خود انتقال دهید</p>
+            </div>
+            <div id="div24">
+                <img src="2.PNG" id="img6">
+                <p id="p19">درآمد بالای 55 میلیون تومان</p>
+                <p id="p24">با خودروی شخصی و زمان‌بندی دلخواهتان برای کار، بیش از 55 میلیون تومان درآمد ماهانه داشته باشید</p>
+            </div>
+            <div>
+                <div id="div25">
+                    <img src="3.PNG" id="img7">
+                    <p id="p20">تخفیف اقلام مصرفی</p>
+                    <p id="p25">از تخفیف ویژه خرید لاستیک، روغن و سایر موارد مصرفی خودرو در تپسی‌گاراژ بهره‌مند شوید</p>
+                </div>
+                <div id="div26">
+                    <img src="4.PNG" id="img8">
+                    <p id="p21">مسیریاب درون برنامه‌ای آسان</p>
+                    <p id="p26">امکان مسیریابی راحت به سمت مبدا و مقصد مسافر بدون نیاز به خروج از نرم افزار سفیران</p>
+                </div>
+            </div>
+            <div id="div27">
+                <img src="5.PNG" id="img9">
+                <p id="p22">پاداش‌ها</p>
+                <p id="p27">با شرکت در طرح‌های تشویقی متنوع و دریافت پاداش‌ها و جوایز، درآمدتان را افزایش دهید</p>
+            </div>
+        </div>
+        <div id="div28">
+            <p id="p28">سوالات متداول</p>
+            <ul id="ul2">
+                <li>چگونه میتوانم راننده تپسی شوم؟</li>
+                <li>امتیاز رانندگات در تپسی چیست؟+شرایط افزایش</li>
+                <li>چگونه میتوانم اطلاعات کاملی ذرباره تپسی داشته باشم؟</li>
+                <li>چند روز بعد از ثبت نام میتوانم فعالیت خود را شروع کنم؟</li>
+                <li>آیا برای ثبت نام راننده محدودیت سنی وجود دارد؟</li>
+                <li>نحوه دریافت درآمد سفرها چگونه است؟</li>
+                <li>تحوه پیگیری وضعیت ثبت نام راننده چگونه است؟</li>
+                <li>امکان کار کردن چند راننده با یک خودرو وجود دارد؟</li>
+            </ul>
+        </div>
+        <div id="div29">
+            <div id="div30">
+                <p id="p29">تپسی در شبکه های اجتماعی</p>
+                <a href="https://twitter.com/TAPSI_ir"><img src="twit.SVG"></a>
+                <a href="https://t.me/tapsi_cab"><img src="tel.SVG"></a>
+                <a href="https://ir.linkedin.com/company/tapsi"><img src="link.SVG"></a>
+                <a href="https://www.instagram.com/tapsi_ir/"><img src="ins.SVG"></a>
+                <a href="https://www.facebook.com/TAPSI.ir"><img src="face.SVG"></a>
+            </div>
+            <div id="div31">
+                <img src="tas.SVG" id="img10">
+                <p id="p30">تمام حقوق مادی و معنوی این وبسایت متعلق به تپسی است</p>
+            </div>
+        </div>
+
+    </body>
+
+</html>
